@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(240, 237, 223);
+}
+.navbar{
+  /* border-style: 2px solid red;*/
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #c9cbcc;
+    width: 100%;
+    height: 175px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.nav{
+display: flex;
+justify-content: right;
+list-style: none;
+}
+.nav li a:hover{
+text-decoration:#3559D8 underline;
+text-decoration-thickness: 2.5px;
+text-underline-offset: 0.7em;
+}
+.logo{
+
+flex-wrap: wrap;
+    flex:1 1 auto;
+   margin-left: 10%
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
+a{
+    padding: 15px;
+    color: #3559D8;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+font-style:bold;
+}
+
+.img{
+   
+    display: flex;
+    flex-direction:row;
+justify-content: space-evenly;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 22px;
+    color: darkcyan;
+
+    }
+    .heading{
+    height: 6.4vh;
+    width: 50vw;
+    background-color:rgb(241, 241, 184) ;
+    text-align: center;
+    }
+    .heading-content{
+        color: rgb(94, 194, 179);
+    }
+.content{
+ justify-content: center; 
+   font-size: 18px;
+}
+.content-imags{
+    justify-content: center;
+}
+.marquee{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    text-shadow: rgb(11, 42, 66) 3px 3px 3px;
+}
